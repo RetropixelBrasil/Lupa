@@ -1,0 +1,118 @@
+/* Lupa™ - Retropixel™ */
+
+body{
+    margin:0;
+    padding:10px;
+    background:#BFC7D8;
+    color:#000;
+    font:13px Verdana,Arial,Tahoma,"Times New Roman",serif;
+}
+
+a{
+    color:#0033CC;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:#CC0000;
+}
+
+table{
+    border-collapse:separate;
+}
+
+.header{
+    background:#5A8EDB;
+    color:#FFF;
+    border:2px outset #8FAFE8;
+}
+
+.searchbox{
+    background:#EAF3FF;
+    border:2px outset #B7D1F8;
+}
+
+/* Links rápidos */
+
+.section{
+    background:#E7F8D9;
+    border:2px outset #9FD37A;
+}
+
+/* Notícias */
+
+#news{
+    background:#EDF5FF;
+    border:2px inset #7AA9E8;
+    padding:6px;
+    min-height:140px;
+}
+
+/* Favoritos */
+
+#favorites{
+    background:#FFF7CC;
+    border:2px inset #E2BE43;
+    padding:6px;
+    min-height:140px;
+}
+
+/* Pesquisas recentes */
+
+#recentSearches{
+    background:#F5F5F5;
+    border:2px inset #BBBBBB;
+    padding:6px;
+    min-height:140px;
+}
+
+/* Histórico */
+
+#history{
+    background:#F1E8FF;
+    border:2px inset #A07AE8;
+    padding:6px;
+    min-height:140px;
+}
+
+.footer{
+    background:#DCE8FF;
+    border:2px outset #9CB7F5;
+    text-align:center;
+}
+
+input[type=text]{
+    width:430px;
+    padding:4px;
+    border:2px inset #FFF;
+    font:14px Verdana,Arial;
+}
+
+input[type=submit],
+input[type=button]{
+    width:110px;
+    height:28px;
+    background:#E5E5E5;
+    border:2px outset #FFF;
+    font:bold 12px Verdana,Arial;
+    cursor:pointer;
+}
+
+input[type=submit]:active,
+input[type=button]:active{
+    border:2px inset #999;
+}
+
+hr{
+    border:0;
+    border-top:1px solid #999;
+}
+
+img{
+    border:0;
+}
+
+.hidden{
+    display:none;
+}
