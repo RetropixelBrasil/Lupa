@@ -2,7 +2,56 @@
   {
     "title": "Retropixel™",
     "description": "Bem-vindo(a) a Retropixel™! Nós somos uma empresa brasileira de tecnologia retrô.",
+    "url": "http://www.retropixel.com.br",
+    "keywords": [ "retropixel", "brasil", "empresa", "tecnologia", "retrô"]
+  }
+
+  {
+    "title": "Lupa™",
+    "description": "Lupa™: o portal Web retrô da Retropixel™! Busque, navegue e divirta-se.",
+    "url": "https://retropixelbrasil.github.io/Lupa",
+    "keywords": [ "retropixel", "brasil", "buscador", "web", "retrô", "retro", "portal", "pesquisa", "lupa"]
+  }
+
+  {
+    "title": "Nostal™",
+    "description": "Nostal™ é a rede social retrô da Retropixel™ inspirada no Orkut/MySpace/Instagram/Facebook nos anos 2000 - 2010.",
+    "url": "http://www.retropixel.com.br",
+    "keywords": [ "retropixel", "brasil", "rede social", "nostal", "retrô"]
+  }
+
+  {
+    "title": "Pulse™",
+    "description": "Receba notícias quando quiser e via RSS com o Pulse™.",
     "url": "https://retropixelbrasil.github.io/Pulse",
-    "keywords": [ "retropixel", "brasil", "empresa", "tecnologia", "retro", "retrô"]
+    "keywords": [ "retropixel", "brasil", "notícias", "pulse", "rss", "notificações", "retrô"]
+  }
+
+  {
+    "title": "Retropixel Messenger™",
+    "description": "Com o Retropixel Messenger™, você pode se comunicar com quem você quer e com a privacidade que você merece... mais um toque retrô!",
+    "url": "https://retropixelbrasil.github.io/Retropixel-Messenger",
+    "keywords": [ "retropixel", "brasil", "retropixel messenger", "rpm", "retrô", "msn messenger", "mensageiro", "windows live messenger", "wlm", "msn"]
+  }
+
+  {
+    "title": "RetroNet™",
+    "description": "Um navegador de Internet retrô e seguro feito com dedicação pela Retropixel™. Venha para o RetroNet™!",
+    "url": "https://retropixelbrasil.github.io/RetroNet",
+    "keywords": [ "retropixel", "brasil", "retronet", "navegador", "retrô", "web", "www", "world wide web", "internet", "browser", "navegador retrô"]
+  }
+
+  {
+    "title": "Retropixel Work™",
+    "description": "O pacote office da Retropixel™, com aplicativos que vão com certeza te ajudar no dia-a-dia do trabalho!",
+    "url": "https://retropixelbrasil.github.io/Retropixel-Work",
+    "keywords": [ "retropixel", "brasil", "office", "work", "retrô", "retropixel work", "rp work"]
+  }
+
+  {
+    "title": "RP-DOS™",
+    "description": "Bem-vindo(a) a Retropixel™! Nós somos uma empresa brasileira de tecnologia retrô.",
+    "url": "https://retropixelbrasil.github.io/RP-DOS",
+    "keywords": [ "retropixel", "brasil", "rp-dos", "rpdos", "retrô", "os", "dos", "sistema operaional", "so", "ms-dos"]
   }
 ]
