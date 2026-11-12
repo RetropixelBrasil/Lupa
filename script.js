@@ -1,3 +1,4 @@
+
 /* ==========================================
    Lupa™
    Retropixel™
@@ -8,13 +9,13 @@ var searchEngine = "https://www.google.com/search?q=";
 window.onload = function () {
 
     updateDate();
-
     loadHistory();
 
     var form = document.getElementById("searchForm");
 
-    if (form)
+    if (form) {
         form.onsubmit = search;
+    }
 
 };
 
@@ -24,16 +25,14 @@ window.onload = function () {
 
 function search() {
 
-    var box =
-        document.getElementById("query");
+    var box = document.getElementById("query");
+    var provider = document.getElementById("searchProvider");
 
-    var text =
-        box.value.replace(/^\s+|\s+$/g, "");
+    var text = box.value.replace(/^\s+|\s+$/g, "");
 
     if (text === "") {
 
         alert("Digite algo para pesquisar.");
-
         box.focus();
 
         return false;
@@ -42,11 +41,19 @@ function search() {
 
     saveSearch(text);
 
-    var url =
-        searchEngine +
-        encodeURIComponent(text);
+    var selectedProvider = provider ? provider.value : "google";
 
-    location.href = url;
+    if (selectedProvider === "lupa") {
+
+        location.href = "results.html?q=" + encodeURIComponent(text);
+
+    } else {
+
+        var url = searchEngine + encodeURIComponent(text);
+
+        location.href = url;
+
+    }
 
     return false;
 
@@ -84,8 +91,9 @@ function saveSearch(text) {
 
     list.unshift(text);
 
-    if (list.length > 10)
+    if (list.length > 10) {
         list.length = 10;
+    }
 
     localStorage.setItem(
         "recentSearches",
@@ -103,11 +111,8 @@ function saveSearch(text) {
 
 function loadHistory() {
 
-    var recent =
-        document.getElementById("recentSearches");
-
-    var history =
-        document.getElementById("history");
+    var recent = document.getElementById("recentSearches");
+    var history = document.getElementById("history");
 
     var list = [];
 
@@ -125,11 +130,13 @@ function loadHistory() {
 
     if (list.length === 0) {
 
-        if (recent)
+        if (recent) {
             recent.innerHTML = "Nenhuma pesquisa.";
+        }
 
-        if (history)
+        if (history) {
             history.innerHTML = "Nenhum registro.";
+        }
 
         return;
 
@@ -147,11 +154,13 @@ function loadHistory() {
 
     html += "</ul>";
 
-    if (recent)
+    if (recent) {
         recent.innerHTML = html;
+    }
 
-    if (history)
+    if (history) {
         history.innerHTML = html;
+    }
 
 }
 
@@ -163,20 +172,15 @@ function updateDate() {
 
     var now = new Date();
 
-    var d =
-        ("0" + now.getDate()).slice(-2);
+    var d = ("0" + now.getDate()).slice(-2);
+    var m = ("0" + (now.getMonth() + 1)).slice(-2);
+    var y = now.getFullYear();
 
-    var m =
-        ("0" + (now.getMonth() + 1)).slice(-2);
+    var el = document.getElementById("lastUpdate");
 
-    var y =
-        now.getFullYear();
-
-    var el =
-        document.getElementById("lastUpdate");
-
-    if (el)
+    if (el) {
         el.innerHTML = d + "/" + m + "/" + y;
+    }
 
 }
 
@@ -254,7 +258,7 @@ function showTerms() {
 
 function escapeHtml(text) {
 
-    return text
+    return String(text)
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")
@@ -264,7 +268,7 @@ function escapeHtml(text) {
 }
 
 /* ===========================
-   Favoritos (base)
+   Favoritos
 =========================== */
 
 function getFavorites() {
@@ -305,4 +309,4 @@ function clearHistory() {
    Versão
 =========================== */
 
-const LUPA_VERSION = "2.0";
+var LUPA_VERSION = "2.0";
