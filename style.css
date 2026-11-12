@@ -1,118 +1,250 @@
-/* Lupa™ - Retropixel™ */
+/* ==========================================
+   Lupa™ - Retropixel™
+   Estilo Web 1.0
+========================================== */
 
-body{
-    margin:0;
-    padding:10px;
-    background:#BFC7D8;
-    color:#000;
-    font:13px Verdana,Arial,Tahoma,"Times New Roman",serif;
+body {
+    margin: 0;
+    padding: 10px;
+    background: #BFC7D8;
+    color: #000;
+    font: 13px Verdana, Arial, Tahoma, "Times New Roman", serif;
 }
 
-a{
-    color:#0033CC;
-    text-decoration:none;
+a {
+    color: #0033CC;
+    text-decoration: none;
 }
 
-a:hover{
-    text-decoration:underline;
-    color:#CC0000;
+a:hover {
+    text-decoration: underline;
+    color: #CC0000;
 }
 
-table{
-    border-collapse:separate;
+table {
+    border-collapse: separate;
 }
 
-.header{
-    background:#5A8EDB;
-    color:#FFF;
-    border:2px outset #8FAFE8;
+/* ===========================
+   Cabeçalho
+=========================== */
+
+.header {
+    background: #5A8EDB;
+    color: #FFF;
+    border: 2px outset #8FAFE8;
 }
 
-.searchbox{
-    background:#EAF3FF;
-    border:2px outset #B7D1F8;
+/* ===========================
+   Caixa de pesquisa
+=========================== */
+
+.searchbox {
+    background: #EAF3FF;
+    border: 2px outset #B7D1F8;
 }
 
-/* Links rápidos */
+/* ===========================
+   Seções
+=========================== */
 
-.section{
-    background:#E7F8D9;
-    border:2px outset #9FD37A;
+.section {
+    background: #E7F8D9;
+    border: 2px outset #9FD37A;
 }
 
-/* Notícias */
+/* ===========================
+   Notícias
+=========================== */
 
-#news{
-    background:#EDF5FF;
-    border:2px inset #7AA9E8;
-    padding:6px;
-    min-height:140px;
+#news {
+    background: #EDF5FF;
+    border: 2px inset #7AA9E8;
+    padding: 6px;
+    min-height: 140px;
 }
 
-/* Favoritos */
+/* ===========================
+   Favoritos
+=========================== */
 
-#favorites{
-    background:#FFF7CC;
-    border:2px inset #E2BE43;
-    padding:6px;
-    min-height:140px;
+#favorites {
+    background: #FFF7CC;
+    border: 2px inset #E2BE43;
+    padding: 6px;
+    min-height: 140px;
 }
 
-/* Pesquisas recentes */
+/* ===========================
+   Pesquisas recentes
+=========================== */
 
-#recentSearches{
-    background:#F5F5F5;
-    border:2px inset #BBBBBB;
-    padding:6px;
-    min-height:140px;
+#recentSearches {
+    background: #F5F5F5;
+    border: 2px inset #BBBBBB;
+    padding: 6px;
+    min-height: 140px;
 }
 
-/* Histórico */
+/* ===========================
+   Histórico
+=========================== */
 
-#history{
-    background:#F1E8FF;
-    border:2px inset #A07AE8;
-    padding:6px;
-    min-height:140px;
+#history {
+    background: #F1E8FF;
+    border: 2px inset #A07AE8;
+    padding: 6px;
+    min-height: 140px;
 }
 
-.footer{
-    background:#DCE8FF;
-    border:2px outset #9CB7F5;
-    text-align:center;
+/* ===========================
+   Rodapé
+=========================== */
+
+.footer {
+    background: #DCE8FF;
+    border: 2px outset #9CB7F5;
+    text-align: center;
 }
 
-input[type=text]{
-    width:430px;
-    padding:4px;
-    border:2px inset #FFF;
-    font:14px Verdana,Arial;
+/* ===========================
+   Campos de formulário
+=========================== */
+
+input[type=text] {
+    width: 430px;
+    padding: 4px;
+    border: 2px inset #FFF;
+    font: 14px Verdana, Arial;
+}
+
+select {
+    padding: 3px;
+    border: 2px inset #FFF;
+    background: #FFF;
+    font: 12px Verdana, Arial;
 }
 
 input[type=submit],
-input[type=button]{
-    width:110px;
-    height:28px;
-    background:#E5E5E5;
-    border:2px outset #FFF;
-    font:bold 12px Verdana,Arial;
-    cursor:pointer;
+input[type=button] {
+    width: 110px;
+    height: 28px;
+    background: #E5E5E5;
+    border: 2px outset #FFF;
+    font: bold 12px Verdana, Arial;
+    cursor: pointer;
 }
 
 input[type=submit]:active,
-input[type=button]:active{
-    border:2px inset #999;
+input[type=button]:active {
+    border: 2px inset #999;
 }
 
-hr{
-    border:0;
-    border-top:1px solid #999;
+/* ==========================================
+   LUPA INDEX - RESULTADOS
+========================================== */
+
+/* Contador de resultados */
+
+.index-count {
+    background: #DCEBFF;
+    border: 1px solid #8CB5E8;
+    color: #174A83;
+    width: 100%;
 }
 
-img{
-    border:0;
+.index-count td {
+    padding: 5px 8px;
 }
 
-.hidden{
-    display:none;
+/* Formulário do cabeçalho de resultados */
+
+#resultsSearchForm {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#resultsSearchForm input[type=text] {
+    width: 350px;
+}
+
+/* Lista de resultados */
+
+.search-result {
+    margin: 0 0 22px 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Link completo do resultado */
+
+.search-result a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Título */
+
+.result-title {
+    color: #0033CC;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.result-title:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+/* Descrição */
+
+.result-description {
+    color: #666666;
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* Endereço */
+
+.result-url {
+    color: #008000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* Evita efeitos de hover na descrição e URL */
+
+.search-result a:hover .result-description,
+.search-result a:hover .result-url {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Mensagens */
+
+.no-results {
+    color: #555555;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+/* ===========================
+   Elementos gerais
+=========================== */
+
+hr {
+    border: 0;
+    border-top: 1px solid #999;
+}
+
+img {
+    border: 0;
+}
+
+.hidden {
+    display: none;
 }
