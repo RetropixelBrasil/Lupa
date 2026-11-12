@@ -305,4 +305,4 @@ function clearHistory() {
    Versão
 =========================== */
 
-const LUPA_VERSION = "1.0 Alpha";
+const LUPA_VERSION = "2.0";
