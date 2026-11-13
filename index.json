@@ -3,48 +3,126 @@
     "title": "Retropixel™",
     "description": "Bem-vindo(a) a Retropixel™! Nós somos uma empresa brasileira de tecnologia retrô.",
     "url": "http://www.retropixel.com.br",
-    "keywords": [ "retropixel", "brasil", "empresa", "tecnologia", "retrô"]
+    "keywords": [ "retropixel", "brasil", "empresa", "tecnologia", "retrô" ]
   },
   {
     "title": "Lupa™",
     "description": "Lupa™: o portal Web retrô da Retropixel™! Busque, navegue e divirta-se.",
     "url": "https://retropixelbrasil.github.io/Lupa",
-    "keywords": [ "retropixel", "brasil", "buscador", "web", "retrô", "retro", "portal", "pesquisa", "lupa"]
+    "keywords": [ "retropixel", "brasil", "buscador", "web", "retrô", "retro", "portal", "pesquisa", "lupa" ]
   },
   {
     "title": "Nostal™",
     "description": "Nostal™ é a rede social retrô da Retropixel™ inspirada no Orkut/MySpace/Instagram/Facebook nos anos 2000 - 2010.",
-    "url": "http://www.retropixel.com.br",
-    "keywords": [ "retropixel", "brasil", "rede social", "nostal", "retrô"]
+    "url": "https://retropixelbrasil.github.io/Nostal",
+    "keywords": [ "retropixel", "brasil", "rede social", "nostal", "retrô" ]
   },
   {
     "title": "Pulse™",
     "description": "Receba notícias quando quiser e via RSS com o Pulse™.",
     "url": "https://retropixelbrasil.github.io/Pulse",
-    "keywords": [ "retropixel", "brasil", "notícias", "pulse", "rss", "notificações", "retrô"]
+    "keywords": [ "retropixel", "brasil", "notícias", "pulse", "rss", "notificações", "retrô" ]
   },
   {
     "title": "Retropixel Messenger™",
     "description": "Com o Retropixel Messenger™, você pode se comunicar com quem você quer e com a privacidade que você merece... mais um toque retrô!",
     "url": "https://retropixelbrasil.github.io/Retropixel-Messenger",
-    "keywords": [ "retropixel", "brasil", "retropixel messenger", "rpm", "retrô", "msn messenger", "mensageiro", "windows live messenger", "wlm", "msn"]
+    "keywords": [ "retropixel", "brasil", "retropixel messenger", "rpm", "retrô", "msn messenger", "mensageiro", "windows live messenger", "wlm", "msn" ]
   },
   {
     "title": "RetroNet™",
     "description": "Um navegador de Internet retrô e seguro feito com dedicação pela Retropixel™. Venha para o RetroNet™!",
     "url": "https://retropixelbrasil.github.io/RetroNet",
-    "keywords": [ "retropixel", "brasil", "retronet", "navegador", "retrô", "web", "www", "world wide web", "internet", "browser", "navegador retrô"]
+    "keywords": [ "retropixel", "brasil", "retronet", "navegador", "retrô", "web", "www", "world wide web", "internet", "browser", "navegador retrô" ]
   },
   {
     "title": "Retropixel Work™",
     "description": "O pacote office da Retropixel™, com aplicativos que vão com certeza te ajudar no dia-a-dia do trabalho!",
     "url": "https://retropixelbrasil.github.io/Retropixel-Work",
-    "keywords": [ "retropixel", "brasil", "office", "work", "retrô", "retropixel work", "rp work"]
+    "keywords": [ "retropixel", "brasil", "office", "work", "retrô", "retropixel work", "rp work" ]
   },
   {
     "title": "RP-DOS™",
     "description": "Bem-vindo(a) a Retropixel™! Nós somos uma empresa brasileira de tecnologia retrô.",
     "url": "https://retropixelbrasil.github.io/RP-DOS",
-    "keywords": [ "retropixel", "brasil", "rp-dos", "rpdos", "retrô", "os", "dos", "sistema operacional", "so", "ms-dos"]
-  }
+    "keywords": [ "retropixel", "brasil", "rp-dos", "rpdos", "retrô", "os", "dos", "sistema operacional", "so", "ms-dos" ]
+  },
+  {
+    "title": "Google",
+    "description": "Busque na Web",
+    "url": "https://www.google.com",
+    "keywords": [ "google", "buscar", "search", "web" ]
+  },
+  {
+    "title": "Microsoft",
+    "description": "Windows, Copilot, XBOX, IA e mais",
+    "url": "https://www.microsoft.com",
+    "keywords": [ "microsoft", "windows", "copilot", "xbox", "ia", "ai", "tecnologia" ]
+  },
+  {
+    "title": "Windows",
+    "description": "O maior sistema operacional do mundo, agora com atualizações.",
+    "url": "https://www.windows.com",
+    "keywords": [ "windows", "microsoft", "copilot", "ia", "ai", "sistema operacional", "os", "so" ]
+  },
+  {
+    "title": "Apple",
+    "description": "iPhone, iPad, iPod, iMac, IA, Liquid Glass e mais",
+    "url": "https://www.apple.com",
+    "keywords": [ "apple", "maçã", "iphone", "ipad", "ipod", "imac", "ia", "ai", "liquid glass", "tecnologia" ]
+  },
+  {
+    "title": "Yahoo!",
+    "description": "Busque na Web",
+    "url": "https://www.yahoo.com",
+    "keywords": [ "yahoo", "buscar", "search", "web", "yahoo!", "!" ]
+  },
+  {
+    "title": "Oracle",
+    "description": "Data centers, IA e VirtualBox",
+    "url": "https://www.oracle.com",
+    "keywords": [ "oracle", "oráculo", "data center", "ia", "ai", "virtualbox", "tecnologia" ]
+  },
+  {
+    "title": "YouTube",
+    "description": "Assista vídeos enviados por pessoas do mundo todo.",
+    "url": "https://www.youtube.com",
+    "keywords": [ "google", "youtube", "vídeos", "videos", "assistir", "shorts" ]
+  },
+  {
+    "title": "ChatGPT",
+    "description": "A Inteligência Artificial da OpenAI.",
+    "url": "https://www.chatgpt.com",
+    "keywords": [ "chatgpt", "chat gpt", "chat", "gpt", "ia", "ai", "openai", "open ai", "chatbot", "bot", "robô", "tecnologia" ]
+  },
+  {
+    "title": "Internet Archive",
+    "description": "Arquivando a Internet desde 1996.",
+    "url": "https://www.archive.org",
+    "keywords": [ "internet archive", "internet", "archive", "1996", "wayback machine" ]
+  },
+  {
+    "title": "Wayback Machine",
+    "description": "Mais de 1 trilhão de páginas arquivadas e visitáveis.",
+    "url": "https://www.web.archive.org",
+    "keywords": [ "wayback machine", "internet archive", "internet", "archive", "web", "www", "1 trilhão", "websites", "sites" ]
+  },
+  {
+    "title": "CNN",
+    "description": "Notícias do mundo todo.",
+    "url": "https://www.cnn.com",
+    "keywords": [ "cnn", "notícias", "noticias", "news", "jornal" ]
+  },
+  {
+    "title": "Instituto Atlântico",
+    "description": "Tecnologia para antecipar o futuro.",
+    "url": "https://www.atlantico.com.br",
+    "keywords": [ "instituto atlântico", "instituto", "cpqd", "atlântico", "atlantico", "ia", "ai", "futuro", "tecnologia" ]
+  },
+  {
+    "title": "McDonald's",
+    "description": "Lanches rápidos e saborosos!",
+    "url": "https://www.mcdonalds.com",
+    "keywords": [ "mcdonald's", "mcdonalds", "méqui", "mequi", "lanches", "hamburguer", "batata frita", "milkshake", "nuggets" ]
+  },
 ]
