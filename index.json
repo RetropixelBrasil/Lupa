@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Retropixel™",
@@ -125,5 +124,11 @@
     "description": "Lanches rápidos e saborosos!",
     "url": "https://www.mcdonalds.com",
     "keywords": ["mcdonald's", "mcdonalds", "méqui", "mequi", "lanches", "hamburguer", "batata frita", "milkshake", "nuggets"]
+  },
+  {
+    "title": "MSN",
+    "description": "O portal de notícias da Microsoft",
+    "url": "https://msn.com",
+    "keywords": ["msn", "microsoft", "notícias", "noticias", "news", "portal"]
   }
 ]
